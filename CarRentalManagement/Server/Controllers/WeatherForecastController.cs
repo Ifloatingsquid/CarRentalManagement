@@ -1,4 +1,4 @@
-﻿using CarRentalManagement.Shared;
+﻿    using CarRentalManagement.Shared;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CarRentalManagement.Server.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
